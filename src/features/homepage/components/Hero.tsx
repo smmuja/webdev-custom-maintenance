@@ -6,11 +6,13 @@ import { styles } from "@/styles";
 export function Hero() {
   return (
     <>
-      <div className="bg-blue-100 min-h-screen flex flex-col items-center justify-center">
+      <div className="pt-5 bg-blue-100 min-h-screen flex flex-col items-center justify-center">
         <div className=" flex flex-col lg:flex-row items-center lg:justify-center gap-5">
           <div className="flex flex-col text-center gap-5 my-5">
-            <p className="text-5xl text-gray-700">Under construction</p>
-            <p className="text-4xl text-gray-700">
+            <p className="text-3xl lg:text-5xl text-gray-700">
+              Under construction
+            </p>
+            <p className="text-xl lg:text-4xl text-gray-700">
               We are building something great
             </p>
           </div>
